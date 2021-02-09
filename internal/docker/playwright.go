@@ -2,11 +2,11 @@ package docker
 
 import (
 	"context"
-	"github.com/saucelabs/saucectl/internal/framework"
 	"path/filepath"
 
 	"github.com/rs/zerolog/log"
 	"github.com/saucelabs/saucectl/cli/command"
+	"github.com/saucelabs/saucectl/internal/framework"
 	"github.com/saucelabs/saucectl/internal/playwright"
 )
 
